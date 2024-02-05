@@ -35,9 +35,6 @@ module.exports = (env, argv) => {
       },
       liveReload: true
     },
-    resolve: {
-      extensions: ['.ts', '.tsx', '.js', '.d.ts']
-    },
     module: {
       rules: [
         {
